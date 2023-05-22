@@ -1,0 +1,29 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<unistd.h>
+
+
+/*Desenvolva um programa que receba um numero
+tamanho e exiba um quadrado de tamanho tamanho
+utilizando o carácter #*/
+
+int main(){
+
+    //variaveis
+    int recebido = 0;
+
+//receber valor
+    printf("digite um numero para fazer um quadrado");
+    scanf("%i",&recebido);
+
+    for(int linha = 1;linha <= recebido; linha++){
+        for(int contador = 1; recebido >= contador; contador++){
+          printf("# ");
+        }//for 2
+           printf("\n");
+    }//for 1 
+
+
+
+    return 0;
+}//main
